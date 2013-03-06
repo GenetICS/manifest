@@ -6,7 +6,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="server.cas-online.nl:8181" />
+           review="genetics.github.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -16,7 +16,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="androidarmv6/android_build" revision="ics-plus">
+  <project path="build" name="GenetICS/build" revision="ics-plus">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -272,15 +272,15 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <!-- START: androidarmv6 repos -->
-  <project path="android" name="androidarmv6/android" remote="github" revision="ics-plus" />
-  <project path="frameworks/base" name="androidarmv6/android_frameworks_base" remote="github" revision="ics-plus" />
-  <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="github" revision="ics-plus" />
-  <project path="packages/apps/CMFileManager" name="androidarmv6/android_packages_apps_CMFileManager" remote="github" revision="ics-plus" />
-  <project path="packages/apps/HwaSettings" name="androidarmv6/android_packages_apps_HwaSettings" remote="github" revision="ics-plus" />
-  <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings" remote="github" revision="ics-plus" />
-  <project path="packages/apps/Trebuchet" name="androidarmv6/android_packages_apps_Trebuchet" remote="github" revision="ics-plus" />
-  <project path="vendor/cm" name="androidarmv6/android_vendor_cm" remote="github" revision="ics-plus" />
-  <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="github" revision="ics-plus" />
-  <!-- END: androidarmv6 repos -->
+  <!-- START: GenetICS repos -->
+  <project path="android" name="GenetICS/manifest" remote="github" revision="ics-plus" />
+  <project path="frameworks/base" name="GenetICS/android_frameworks_base" remote="github" revision="ics-plus" />
+  <project path="hardware/msm7k" name="GenetICS/android_hardware_msm7k" remote="github" revision="ics-plus" />
+  <project path="packages/apps/CMFileManager" name="GenetICS/android_packages_apps_CMFileManager" remote="github" revision="ics-plus" />
+  <project path="packages/apps/HwaSettings" name="GenetICS/android_packages_apps_HwaSettings" remote="github" revision="ics-plus" />
+  <project path="packages/apps/Settings" name="GenetICS/android_packages_apps_Settings" remote="github" revision="ics-plus" />
+  <project path="packages/apps/Trebuchet" name="GenetICS/android_packages_apps_Trebuchet" remote="github" revision="ics-plus" />
+  <project path="vendor/cm" name="GenetICS/android_vendor_cm" remote="github" revision="ics-plus" />
+  <project path="vendor/google" name="GenetICS/android_vendor_google" remote="github" revision="ics-plus" />
+  <!-- END: GenetICS repos -->
 </manifest>
