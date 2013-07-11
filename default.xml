@@ -276,7 +276,7 @@
    <!-- START: GenetICS repos -->
   <project path="android" name="GenetICS/manifest" remote="github" revision="ics" />
   <project path="frameworks/base" name="GenetICS/frameworks_base" remote="github" revision="ics" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" revision="ics" />
+  <project path="hardware/msm7k" name="GenetICS/android_hardware_msm7k" remote="github" revision="ics" />
   <project path="packages/apps/CMFileManager" name="GenetICS/packages_apps_CMFileManager" remote="github" revision="ics" />
   <project path="packages/apps/Effem" name="GenetICS/packages_apps_Effem" remote="github" revision="ics" />
   <project path="packages/apps/HwaSettings" name="GenetICS/packages_apps_HwaSettings" remote="github" revision="ics" />
@@ -290,7 +290,4 @@
   <project path="vendor/lge/p500" name="GenetICS/vendor_lge_p500" remote="github" revision="ics" />
 
   <!-- END: GenetICS repos -->
-
-
-
 </manifest>
